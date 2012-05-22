@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Framework file for selenium.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function selenium_uninstall() {
+  variable_del('selenium_server_host');
+}

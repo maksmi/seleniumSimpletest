@@ -1,0 +1,20 @@
+name = Selenium testing
+description = Integrates Selenium framework with simpletest.
+package = Development
+core = 7.x
+
+files[] = selenium.install
+files[] = drupal_selenium_web_test_case.php
+
+
+dependencies[] = simpletest
+;http://drupal.org/project/simpletest_clone
+dependencies[] = simpletest_clone
+
+
+; Information added by drupal.org packaging script on 2011-08-07
+version = "7.x-2.0-beta2"
+core = "7.x"
+project = "selenium"
+datestamp = "1312702326"
+
