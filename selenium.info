@@ -1,15 +1,10 @@
 name = Selenium testing
 description = Integrates Selenium framework with simpletest.
 package = Development
-version = "7.x-2.0-beta2"
+version = VERSION
 core = "7.x"
-project = "selenium"
-datestamp = "1312702326"
-
 files[] = selenium.install
 files[] = drupal_selenium_web_test_case.php
-
-
 dependencies[] = simpletest
 ;http://drupal.org/project/simpletest_clone
 dependencies[] = simpletest_clone
