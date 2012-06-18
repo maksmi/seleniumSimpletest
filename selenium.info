@@ -5,6 +5,8 @@ version = VERSION
 core = "7.x"
 files[] = selenium.install
 files[] = drupal_selenium_web_test_case.php
+files[] = selenium_web_driver.php
+files[] = selenium_web_element.php
 dependencies[] = simpletest
 ;http://drupal.org/project/simpletest_clone
 dependencies[] = simpletest_clone
